@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 1.1rem;
+}
+
+.menu {
+  position: relative;
+  background-color: #FFF;
+  box-shadow: 
+  0px 0.3px 0.6px rgba(0, 0, 0, 0.028),
+  0px 0.8px 1.8px rgba(0, 0, 0, 0.04),
+  0px 1.8px 4.2px rgba(0, 0, 0, 0.052),
+  0px 6px 14px rgba(0, 0, 0, 0.08)
+  ;
+  display: flex;
+}
+
+.menu a {
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(71, 85, 105);
+  transition: 0.3s;
+}
+
+.menu a[aria-selected] {
+  color: #5396EB;
+}
+
+.indicator {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  height: 4px;
+  width: 100px;
+  background-color: #5396EB;
+  border-radius: 4px;
+  transform-origin: 0 0;
+}
